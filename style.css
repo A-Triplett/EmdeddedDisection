@@ -301,18 +301,18 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-  }
-  
-  .section-container {
+}
+
+.section-container {
     gap: 4rem;
     height: 80%;
-  }
-  
-  .section__pic-container {
+}
+
+.section_pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
-  }
+}
 
 
 /* EXPERIENCE SECTION */
@@ -355,12 +355,33 @@ article .icon {
 
 
 /* PROJECTS SECTION */
-
-
+#projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+  
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+  }
 
 
 /* CONTACT */
-
 
 
 
